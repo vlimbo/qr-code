@@ -1,0 +1,40 @@
+body {
+  font-family: Outfit, Arial;
+  margin: 0;
+  background-color: rgb(223, 235, 239);
+}
+
+p {
+  font-size: 15px;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 100px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  height: 285px;
+  width: 285px;
+  border-radius: 8px;
+}
+
+.text-container {
+  text-align: center;
+  width: 250px;
+}
+
+.text-container h3 {
+  font-size: 22px;
+}
